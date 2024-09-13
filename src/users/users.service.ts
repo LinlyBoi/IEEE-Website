@@ -24,7 +24,7 @@ export class UsersService {
 		return `This action returns all users`;
 	}
 
-	findOne(username: number) {
+	findOne(username: string) {
 		return this.users.find(user => user.username === username);
 	}
 
