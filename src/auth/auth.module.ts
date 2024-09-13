@@ -4,6 +4,8 @@ import { UsersModule } from '../users/users.module';
 import { JwtModule } from '@nestjs/jwt';
 import { AuthController } from './auth.controller';
 
+require('dotenv').config()
+
 @Module({
   imports: [
     UsersModule,
