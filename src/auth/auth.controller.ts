@@ -23,7 +23,7 @@ export class AuthController {
 
 	@UseGuards(AuthGuard)
 	@Get('profile')
-	getProfile(@Request() req: Request): String {
+	getProfile(@Request() req: Request): string {
 		return 'in!';
 	}
 }
