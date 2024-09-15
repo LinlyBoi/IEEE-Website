@@ -12,7 +12,7 @@ require('dotenv').config();
 		JwtModule.register({
 			global: true,
 			secret: process.env.JWT_SECRET,
-			signOptions: { expiresIn: '60s' },
+			signOptions: { expiresIn: '60s' }, //This value should be modified depending on website needs
 		}),
 	],
 	providers: [AuthService],
