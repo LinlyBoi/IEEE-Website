@@ -4,6 +4,7 @@ import { UpdateUserInput } from './dto/update-user.input';
 
 @Injectable()
 export class UsersService {
+	//#TODO THIS SHOULD BE A DATABASE LOL
 	private readonly users = [
 		{
 			userId: 1,
